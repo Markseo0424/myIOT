@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.235" />
+        <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2345" />
+        <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2345" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.235" />
+        <entry key="app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2345" />
+        <entry key="app/src/main/res/drawable/togglebutton_1.xml" value="0.2645" />
+        <entry key="app/src/main/res/drawable/togglebutton_2.xml" value="0.282" />
+        <entry key="app/src/main/res/layout/activity_action.xml" value="0.280636384405208" />
+        <entry key="app/src/main/res/layout/activity_condition.xml" value="0.25346781412760416" />
+        <entry key="app/src/main/res/layout/activity_edit_module.xml" value="0.36337381998697915" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24048913043478262" />
+        <entry key="app/src/main/res/layout/activity_module.xml" value="0.24048913043478262" />
+        <entry key="app/src/main/res/layout/activity_schedule.xml" value="0.31110222857931413" />
+        <entry key="app/src/main/res/layout/activity_setting.xml" value="0.32157999674479165" />
+        <entry key="app/src/main/res/layout/adapter_action.xml" value="0.4665873209635417" />
+        <entry key="app/src/main/res/layout/adapter_condition.xml" value="0.4435577392578125" />
+        <entry key="app/src/main/res/layout/adapter_module_button.xml" value="0.2844649605129077" />
+        <entry key="app/src/main/res/layout/adapter_module_onoff.xml" value="0.33936760943868893" />
+        <entry key="app/src/main/res/layout/adapter_module_shift.xml" value="0.4360514322916667" />
+        <entry key="app/src/main/res/layout/adapter_module_shift_slider.xml" value="0.27760416666666665" />
+        <entry key="app/src/main/res/layout/adapter_module_slider.xml" value="0.4537719063136889" />
+        <entry key="app/src/main/res/layout/adapter_module_value.xml" value="0.41199486773947014" />
+        <entry key="app/src/main/res/layout/adapter_schedule.xml" value="0.29270833333333335" />
+        <entry key="app/src/main/res/layout/adapter_select_module.xml" value="0.5518885294596354" />
+        <entry key="app/src/main/res/layout/fragment_condition_module.xml" value="0.3139419555664062" />
+        <entry key="app/src/main/res/layout/fragment_condition_time.xml" value="0.247557228489926" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.24048913043478262" />
+        <entry key="app/src/main/res/layout/fragment_models_shift.xml" value="0.2635416666666667" />
+        <entry key="app/src/main/res/layout/fragment_modules.xml" value="0.5879317573879077" />
+        <entry key="app/src/main/res/layout/fragment_modules_shift.xml" value="0.27760416666666665" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.4450103096340014" />
+        <entry key="app/src/main/res/layout/fragment_schedules.xml" value="0.24048913043478262" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.27760416666666665" />
+        <entry key="app/src/main/res/menu/main.xml" value="0.27760416666666665" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.27760416666666665" />
+        <entry key="app/src/main/res/menu/module_menu.xml" value="0.27760416666666665" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11509399414062499" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2925" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

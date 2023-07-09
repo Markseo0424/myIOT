@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/conditionTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:text="Title"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/deleteConditionButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/moveConditionButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/sort_icon"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/changeBlendButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/deleteConditionButton"
+        app:srcCompat="@drawable/sort_icon" />
+
+    <Button
+        android:id="@+id/deleteConditionButton"
+        android:layout_width="90dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/theme_third"
+        android:text="delete"
+        app:layout_constraintBottom_toTopOf="@+id/changeBlendButton"
+        app:layout_constraintEnd_toStartOf="@+id/moveConditionButton"
+        app:layout_constraintTop_toTopOf="@+id/conditionTitle" />
+
+    <ToggleButton
+        android:id="@+id/changeBlendButton"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/togglebutton_2"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textColor="#FFFFFF"
+        android:textOff="OR"
+        android:textOn="AND"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/conditionText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/deleteConditionButton"
+        app:layout_constraintEnd_toStartOf="@+id/deleteConditionButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/conditionTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

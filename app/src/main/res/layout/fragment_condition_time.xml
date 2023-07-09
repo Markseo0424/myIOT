@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/addButton2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="20dp"
+        android:text="add condition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ToggleButton
+            android:id="@+id/satButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="246dp"
+            android:background="@drawable/togglebutton_1"
+            android:button="@drawable/transparent"
+            android:checked="false"
+            android:text="ToggleButton"
+            app:layout_constraintStart_toEndOf="@+id/friButton"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@+id/sunButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="246dp"
+            android:background="@drawable/togglebutton_1"
+            android:button="@drawable/transparent"
+            android:checked="false"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@+id/thuButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="246dp"
+            android:background="@drawable/togglebutton_1"
+            android:button="@drawable/transparent"
+            android:checked="false"
+            android:text="ToggleButton"
+            app:layout_constraintStart_toEndOf="@+id/wedButton"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@+id/monButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="246dp"
+            android:background="@drawable/togglebutton_1"
+            android:button="@drawable/transparent"
+            android:checked="false"
+            android:text="ToggleButton"
+            app:layout_constraintStart_toEndOf="@+id/sunButton"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@+id/tueButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="246dp"
+            android:background="@drawable/togglebutton_1"
+            android:button="@drawable/transparent"
+            android:checked="false"
+            android:text="ToggleButton"
+            app:layout_constraintStart_toEndOf="@+id/monButton"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@+id/wedButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="246dp"
+            android:background="@drawable/togglebutton_1"
+            android:button="@drawable/transparent"
+            android:checked="false"
+            android:text="ToggleButton"
+            app:layout_constraintStart_toEndOf="@+id/tueButton"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@+id/friButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="246dp"
+            android:background="@drawable/togglebutton_1"
+            android:button="@drawable/transparent"
+            android:checked="false"
+            android:text="ToggleButton"
+            app:layout_constraintStart_toEndOf="@+id/thuButton"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-80dp"
+        android:clickable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/constraintLayout">
+
+        <TextView
+            android:id="@+id/satText"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="256dp"
+            android:text="SAT"
+            android:textAlignment="center"
+            android:textColor="@color/theme_primary"
+            app:layout_constraintStart_toEndOf="@+id/friText"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/friText"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="256dp"
+            android:text="FRI"
+            android:textAlignment="center"
+            android:textColor="@color/theme_primary"
+            app:layout_constraintStart_toEndOf="@+id/thuText"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/wedText"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="256dp"
+            android:text="WED"
+            android:textAlignment="center"
+            android:textColor="@color/theme_primary"
+            app:layout_constraintStart_toEndOf="@+id/tueText"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/thuText"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="256dp"
+            android:text="THU"
+            android:textAlignment="center"
+            android:textColor="@color/theme_primary"
+            app:layout_constraintStart_toEndOf="@+id/wedText"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/sunText"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="256dp"
+            android:clickable="false"
+            android:text="SUN"
+            android:textAlignment="center"
+            android:textColor="@color/theme_primary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/monText"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="256dp"
+            android:text="MON"
+            android:textAlignment="center"
+            android:textColor="@color/theme_primary"
+            app:layout_constraintStart_toEndOf="@+id/sunText"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tueText"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="256dp"
+            android:backgroundTint="@color/black"
+            android:text="TUE"
+            android:textAlignment="center"
+            android:textColor="@color/theme_primary"
+            app:layout_constraintStart_toEndOf="@+id/monText"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="12:00   "
+        android:textSize="96sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="AM"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/timeText"
+        app:layout_constraintEnd_toEndOf="@+id/timeText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
